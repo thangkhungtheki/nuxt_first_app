@@ -14,7 +14,7 @@
     import jwplayer from '~/components/jwplayer.vue'
     
     export default {
-      
+      layout: 'layout1',
       data() {
         return {
           sotap: "94364",
