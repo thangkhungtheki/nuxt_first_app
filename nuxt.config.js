@@ -31,7 +31,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/css/style.css'
+    '~/assets/css/style.css',
+    
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -62,6 +63,7 @@ export default {
   },
   server: {
     port: 5002, // Đặt giá trị port tùy ý
+    host: '0.0.0.0'
   },
   
 }
