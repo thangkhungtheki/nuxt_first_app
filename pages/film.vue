@@ -9,7 +9,7 @@
     </div> 
     </template>
     
-    <script>
+    <script >
     import axios from "axios"
     import jwplayer from '~/components/jwplayer.vue'
     

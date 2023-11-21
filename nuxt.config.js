@@ -61,6 +61,7 @@ export default {
     standalone: true
   },
   server: {
+    host: '0.0.0.0',
     port: 5002, // Đặt giá trị port tùy ý
   },
   
