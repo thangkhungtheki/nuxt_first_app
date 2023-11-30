@@ -23,8 +23,8 @@
         yourLogoPath: 'logo.png',
         jwoptions: {
           //file: 'pngs/output.m3u8',
-          heigh: 360,
-          width: 640,
+          heigh: 435,
+          width: 786,
           mute: true,
           
         },

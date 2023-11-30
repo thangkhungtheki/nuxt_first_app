@@ -64,7 +64,7 @@ export default {
   server: {
     host: '0.0.0.0',
     port: 5002, // Đặt giá trị port tùy ý
-    host: '0.0.0.0'
+    
   },
   
 }
