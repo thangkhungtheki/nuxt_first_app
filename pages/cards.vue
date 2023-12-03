@@ -1,7 +1,7 @@
 <template>
     <b-container class="custom-container" fluid>
       <b-row class="custom-row">
-        <b-col lg="2" md="6" sm="6" v-for="(image, index) in images" :key=image class="custom-col">
+        <b-col lg="2" md="6" sm="6" v-for="(image, index) in images" :key=image.id class="custom-col">
             
           <img :src="image.url" alt="Hình ảnh" class="img-fluid custom-image"/>
           <div><span>{{ image.content }}</span></div>
@@ -12,7 +12,7 @@
   
   <script>
   export default {
-    layout: 'layout1',
+    
     data() {
       return {
         images: [
